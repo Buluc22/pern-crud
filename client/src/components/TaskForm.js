@@ -1,3 +1,4 @@
+import "./TaskForm.css"
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -36,14 +37,17 @@ export default function TaskForm() {
   return (
     <div>
         <form className="form" onSubmit={handleSubmit}>
+
         <label>Titulo</label>
         <input name="title" onChange={handleChange}></input>
         
         <label>Descripcion</label>
         <input name="description" onChange={handleChange} />
+
         <button type="submit" disabled={!task.title || !task.description}>
           {loading ? 'Loading...' : 'Create'}
         </button>
+        
         </form>
 
     </div>

@@ -8,7 +8,7 @@
 
 .nav-container{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
   background-color: #24252A;
@@ -35,4 +35,8 @@ button{
 
 button:hover{
   background-color: rgba(0, 136, 169,1);
+}
+
+label a{
+  color: #fcbf49;
 }
