@@ -35,16 +35,16 @@ export default function TaskForm() {
   
 
   return (
-    <div>
+    <div class="container">
         <form className="form" onSubmit={handleSubmit}>
 
-        <label>Titulo</label>
-        <input name="title" onChange={handleChange}></input>
+        <h3>Titulo</h3>
+        <input type="text" name="title" onChange={handleChange}></input>
         
-        <label>Descripcion</label>
-        <input name="description" onChange={handleChange} />
+        <h3>Descripcion</h3>
+        <input type="text" name="description" onChange={handleChange} />
 
-        <button type="submit" disabled={!task.title || !task.description}>
+        <button class="registerbtn" type="submit" disabled={!task.title || !task.description}>
           {loading ? 'Loading...' : 'Create'}
         </button>
         

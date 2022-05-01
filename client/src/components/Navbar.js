@@ -16,8 +16,8 @@ export default function Navbar() {
             </label>
 
         <ul className="nav_links">
-            <button className="button button1" onClick={ () => navigate ('/tasks/new')}>
-                Tasks
+            <button className="btn btn1" onClick={ () => navigate ('/tasks/new')}>
+                Agregar
             </button>
         </ul>
         </div>

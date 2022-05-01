@@ -1,42 +1,38 @@
-form {
-    display: grid;
-    padding: 1em;
-    background: #fcbf49;
-    border: 1px solid #c1c1c1;
-    margin: 2rem auto 0 auto;
-    max-width: 600px;
-    padding: 1em;
-  }
-  form input {
-    background: #fff;
-    border: 1px solid #9c9c9c;
-  }
-    
-  label {
-    padding: 0.5em 0.5em 0.5em 0;
-  }
-  
-  input {
-    padding: 0.7em;
-    margin-bottom: 0.5rem;
-  }
-  input:focus {
-    outline: 3px solid gold;
-  }
-  
-  @media (min-width: 400px) {
-    form {
-      grid-template-columns: 200px 1fr;
-      grid-gap: 16px;
-    }
-  
-    label {
-      text-align: right;
-      grid-column: 1 / 2;
-    }
-  
-    input,
-    button {
-      grid-column: 2 / 3;
-    }
-  }
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: #e9c46a ;
+}
+
+input[type=text], input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+

@@ -15,7 +15,7 @@
 }
 
 
-button{
+.btn{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -23,7 +23,7 @@ button{
   text-decoration: none;
 }
 
-button{
+.btn{
   margin-left: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169,1);
@@ -33,7 +33,7 @@ button{
   transition: all 0.3s ease 0s;
 }
 
-button:hover{
+.btn:hover{
   background-color: rgba(0, 136, 169,1);
 }
 
