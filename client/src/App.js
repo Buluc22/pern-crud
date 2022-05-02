@@ -11,7 +11,7 @@ export default function App() {
      <Routes>
        <Route path='/' element={<TaskList/>}/>
        <Route path='/tasks/new' element={<TaskForm/>}/>
-       {/* ruta de editar */}
+       <Route path='/tasks/:id/edit' element={<TaskForm/>}/>
      </Routes>
      
     </BrowserRouter>
